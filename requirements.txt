@@ -1,14 +1,15 @@
-numpy
-scipy
-pygit
-opencv-python
-pytransform3d
-matplotlib
-PyQt6
-pyqtgraph
-keyboard
-scikit-learn
-pandas
-pygame
-scp
-paramiko
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+numpy>=1.24.0
+keyboard>=0.13.5
+pyttsx3>=2.90
+
+## Additional Requirements
+
+This project requires the following proprietary software:
+
+- Quanser Interactive Labs (QLabs)
+- QCar2 Digital Twin Environment
+- Quanser Python Libraries (qvl package)
+
+Install these from the Quanser Academic Resources Portal before running the project.
